@@ -1,1 +1,1 @@
-# dictionary_program
+# dictionary_generating_program
