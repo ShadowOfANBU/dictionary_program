@@ -1,7 +1,6 @@
-#This Program is Developed By Mayur Bhardwaj. 
-#This Program could be use for the dictionary attack.
-#This Program is Developed only for research purposes.
-#Mayur Bhardwaj not liable for any kind of damage done through that program.
+#This Program could be use for generating english word dictionary for dictionary attack.
+#Its Developed only for research purposes.
+#I am not liable for any kind of damage done from that program, please use wisely.
 
 def first_letter_in_uppercase():
 	with open('words_alpha.txt','r') as fp:
@@ -187,7 +186,7 @@ def use_of_lookalike_character():
 		for mack in fp:
 			
 			i=0
-			with open('Crack3.txt','a') as fw:
+			with open('Crack4.txt','a') as fw:
 				length=len(mack)
 				if(length>7 and length<17):
 					while(i<len(mack)):
@@ -225,7 +224,8 @@ def use_of_lookalike_character():
 		    	
 				
 				
-			
+#Just Remove the # from the below lines and use it of dictionary generation for differenct cases.
+
 #first_letter_in_uppercase()
 
 #first_letter_in_uppercase_with_special_cahracters()
@@ -234,7 +234,7 @@ def use_of_lookalike_character():
 
 #first_letter_in_uppercase_and_number_upto_two_digit()
 
-use_of_lookalike_character()
+#use_of_lookalike_character()
 
 
 
